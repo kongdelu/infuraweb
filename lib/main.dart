@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Container(
-                  width: MediaQuery.of(context).size.width * 0.3,
+                  width: MediaQuery.of(context).size.width - 32,
                   height: 600,
                   padding: EdgeInsets.only(left: 10,right: 10),
                   decoration: BoxDecoration(
